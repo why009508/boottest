@@ -27,7 +27,7 @@ public class UserController {
     @RequestMapping("queryUser")
     public String queryUser(){
         /*List<User> list = userService.queryUser();*/
-        System.out.println("1322121212121212121");
+        //System.out.println("1322121212121212121");
         return "reg";
     }
     @RequestMapping("/hello/{myName}")
